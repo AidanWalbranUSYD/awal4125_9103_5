@@ -3,8 +3,8 @@
 ## Project Description
 Some project description
 
-** This is bold **
-_ This is italics _
+**This is bold**
+_This is italics_
 
 1. List Item 1
 2. List Item 2
