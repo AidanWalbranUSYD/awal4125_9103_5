@@ -83,6 +83,11 @@ function keyPressed() {
   }
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+  calculateImageDrawProps();
+}
+
 function calculateImageDrawProps() {
   //if the image is wider than the canvas
   if (imgDrwPrps.aspect > canvasAspectRatio) {
